@@ -36,7 +36,7 @@ public:
         model_path_ =
             declare_parameter<std::string>(
                 "model",
-                "/home/barelangv/computer_vision/srv/vision/yolo11n-seg_openvino_model/yolo11n-seg.xml"
+                "/home/barelangv/computer_vision/srv/vision_cpp/yolo11n-seg_openvino_model/yolo11n-seg.xml"
             );
 
         device_ =
