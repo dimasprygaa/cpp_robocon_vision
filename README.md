@@ -434,14 +434,14 @@ ros2 run vision_cpp vision
 The default model should point to:
 
 ```text
-/home/barelangv/computer_vision/yolov8n-seg_openvino_model/yolov8n-seg.xml
+/home/barelangv/computer_vision/src/vision_cpp/yolov8n-seg_openvino_model/yolov8n-seg.xml
 ```
 
 The model can also be specified manually:
 
 ```bash
 ros2 run vision_cpp vision --ros-args \
-    -p model:=/home/barelangv/computer_vision/yolov8n-seg_openvino_model/yolov8n-seg.xml
+    -p model:=/home/barelangv/computer_vision/src/vision_cppyolov8n-seg_openvino_model/yolov8n-seg.xml
 ```
 
 Set the confidence threshold:
